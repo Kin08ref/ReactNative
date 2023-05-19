@@ -27,3 +27,8 @@ kéo xuống dependencies (dòng 154) add thêm 2 cái này vào
 
 implementation platform("com.google.firebase:firebase-bom:32.0.0")
 implementation("com.google.firebase:firebase-analytics")
+
+Xong rồi đó, chạy 
+npm start
+a 
+là chạy thôi, nếu báo lỗi thì xóa cái dòng import axis của tui đi là được, trong folder home.
