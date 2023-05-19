@@ -1,0 +1,25 @@
+npm i -g react-native
+npx react-native init test
+cd test
+----------------------------------------
+npm i react-native-elements --force
+npm i --save react-native-vector-icons
+npm install react-native-vector-icons --save
+npm install --save @ant-design/icons-react-native
+npm install react-native-screens react-native-safe-area-context
+npm install @react-navigation/native
+npm install @react-navigation/native-stack
+npm install @react-navigation/bottom-tabs
+npm install --save @react-native-firebase/app
+npm  install firebase 
+
+android/app/build.gradle
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+
+project.ext.vectoricons = [
+iconFontNames: [ 'Feather.ttf','FontAwesome.ttf','MaterialIcons.ttf','AntDesign.ttf' ] // Name of the font files you want to copy
+]
+kéo xuống dependencies (dòng 154) add thêm 2 cái này vào
+
+implementation platform("com.google.firebase:firebase-bom:32.0.0")
+implementation("com.google.firebase:firebase-analytics")
