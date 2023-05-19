@@ -1,3 +1,6 @@
+down hết các file tui up về, tạo 1 file ReactNative của riêng bạn rồi bỏ file tui vào.
+App.tsx bỏ vào thì chọn replace.
+---------------------------------------
 npm i -g react-native
 npx react-native init test
 cd test
@@ -12,13 +15,14 @@ npm install @react-navigation/native-stack
 npm install @react-navigation/bottom-tabs
 npm install --save @react-native-firebase/app
 npm  install firebase 
-
-android/app/build.gradle
+----------------------------------------
+vào mục android/app/build.gradle
+thêm các dòng dưới đây vào để cài thư viện Icon và firebase
 apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
-
 project.ext.vectoricons = [
 iconFontNames: [ 'Feather.ttf','FontAwesome.ttf','MaterialIcons.ttf','AntDesign.ttf' ] // Name of the font files you want to copy
 ]
+
 kéo xuống dependencies (dòng 154) add thêm 2 cái này vào
 
 implementation platform("com.google.firebase:firebase-bom:32.0.0")
