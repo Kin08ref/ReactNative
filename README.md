@@ -5,6 +5,6 @@ Mình không phải dân chuyên nên code còn hơi ngố mọi người th
 
 Vì thời gian có hạn nên có làm màn hình đăng nhập mà chỉ mới có giao diện.
 
-Để rành rồi làm clip cho mọi người nhé ahihi.
+Làm theo RunFile để chạy ứng dụng nhé.
 
 link:
