@@ -7,4 +7,5 @@ Vì thời gian có hạn nên có làm màn hình đăng nhập mà ch
 
 Làm theo RunFile để chạy ứng dụng nhé.
 Sủa lại Firebase.tsx theo cái bạn tạo, của tui tạo bản test nên có khi nó đã bị xóa mất rồi.
+
 link:
