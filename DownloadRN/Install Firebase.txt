@@ -1,0 +1,13 @@
+down js trên firebase console →android/app
+
+thêm vào android/build.gradle
+> classpath("com.google.gms:google-services:4.3.15")
+
+thêm vào android/app/build.gradle
+
+apply plugin: 'com.google.gms.google-services'
+implementation platform("com.google.firebase:firebase-bom:32.0.0")
+implementation("com.google.firebase:firebase-analytics")
+
+packagename trong đây luôn chỗ 
+applicationId "com.name"

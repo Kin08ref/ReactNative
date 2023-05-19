@@ -1,0 +1,47 @@
+https://www.youtube.com/watch?v=oorfevovPWw&t=365s
+(xem từ phút thứ 3 là được, cài react-native thì làm theo bên dưới không cần làm như video)
+dow android Studio xong vào jre\bin copy file trong đó bỏ vào jbr\bin 
+copy toàn bộ file trong jbr paste vào jre
+
+mở tìm kiếm screach: Edit evironment variables
+tạo 3 file trong User variables:
+	+ ANDROID_HOME	C:\Users\nlaki\AppData\Local\Android\Sdk
+	+ ANDROID_PTOOLS	C:\Users\nlaki\AppData\Local\Android\Sdk\platform-tools
+	+ JAVA_HOME		D:\AppStudy\KC225\AndroidStudio\App\jbr
+
+mở terminal trong VScode chạy cd <ổ đĩa muốn dùng> 
+
+> npm i -g react-native
+> npx react-native init test
+> cd test
+<chạy dự án>
+> 1 npm start
+> 2 npx react-native start
+> a
+
+Gỡ cài đặt
+> npm uninstall -g react-native-cli
+------------------------------------------------------
+npm i react-native-elements --force
+npm i --save react-native-vector-icons
+npm install react-native-vector-icons --save
+npm install --save @ant-design/icons-react-native
+-----------------------------------------------------
+npm i react-native-keyboard-aware-scroll-view --save
+-----------------------------------------------------
+->Navigator
+npm install react-native-screens react-native-safe-area-context
+npm install @react-navigation/native
+npm install @react-navigation/native-stack
+npm install @react-navigation/bottom-tabs
+-----------material-bottom-tabs----------
+npm install @react-navigation/material-bottom-tabs react-native-paper react-native-vector-icons
+-> BLE
+npm i --save react-native-ble-manager
+npm install convert-string --save
+-> cài fire base 
+npm install --save @react-native-firebase/app
+npm  install firebase 
+npm add @react-native-firebase/auth
+-> axios
+npm install axios
