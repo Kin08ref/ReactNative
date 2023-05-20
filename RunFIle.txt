@@ -1,5 +1,7 @@
 down hết các file tui up về, tạo 1 file ReactNative của riêng bạn rồi bỏ file tui vào.
 App.tsx bỏ vào thì chọn replace.
+link clip hướng dẫn:
+https://drive.google.com/file/d/1sxsobqLCAm2N_SJf_Kh-ofcDXhG56tg4/view?usp=sharing
 ---------------------------------------
 npm i -g react-native
 npx react-native init test
