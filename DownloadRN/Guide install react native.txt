@@ -1,5 +1,4 @@
-https://www.youtube.com/watch?v=oorfevovPWw&t=365s
-(xem từ phút thứ 3 là được, cài react-native thì làm theo bên dưới không cần làm như video)
+down Nodejs và npm 
 dow android Studio xong vào jre\bin copy file trong đó bỏ vào jbr\bin 
 copy toàn bộ file trong jbr paste vào jre
 
