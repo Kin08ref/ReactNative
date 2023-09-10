@@ -3,10 +3,10 @@ dow android Studio xong vào jre\bin copy file trong đó bỏ vào jbr\bin
 copy toàn bộ file trong jbr paste vào jre
 
 mở tìm kiếm screach: Edit evironment variables
-tạo 3 file trong User variables:
+tạo 1 file trong User variables:
 	+ ANDROID_HOME	C:\Users\nlaki\AppData\Local\Android\Sdk
-	+ ANDROID_PTOOLS	C:\Users\nlaki\AppData\Local\Android\Sdk\platform-tools
-	+ JAVA_HOME		D:\AppStudy\KC225\AndroidStudio\App\jbr
+chọn Path → Edit → New:
+	C:\Users\nlaki\AppData\Local\Android\Sdk\platform-tools
 
 mở terminal trong VScode chạy cd <ổ đĩa muốn dùng> 
 
